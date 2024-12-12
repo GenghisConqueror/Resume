@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.resume {
+    max-width: 900px;
+    margin: 20px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.header .left h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.header .left p {
+    font-size: 16px;
+    margin: 5px 0;
+    font-weight: bold;
+}
+
+.header .contact-info {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+}
+
+.header .contact-info li {
+    margin-bottom: 5px;
+}
+
+.header .right img {
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+}
+
+hr {
+    border: 1px solid #ddd;
+    margin: 20px 0;
+}
+
+.career-overview h2, .education h2, .skills h2, .reference h2, .experience h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+}
+
+.career-overview p {
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.columns {
+    display: flex;
+    gap: 20px;
+}
+
+.left-column {
+    flex: 1;
+}
+
+.right-column {
+    flex: 2;
+}
+
+.skills ul, .experience ul {
+    list-style: disc;
+    padding-left: 20px;
+}
+
+.skills ul li, .experience ul li {
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.experience .job {
+    margin-bottom: 15px;
+}
+
+.reference p {
+    margin: 5px 0;
+    font-size: 14px;
+}
